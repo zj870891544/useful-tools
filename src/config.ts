@@ -32,7 +32,7 @@ export const config = figue({
     isTrackerEnabled: {
       doc: 'Is the tracker enabled',
       format: 'boolean',
-      default: false,
+      default: true,
       env: 'VITE_TRACKER_ENABLED',
     },
     domain: {
@@ -51,6 +51,20 @@ export const config = figue({
       doc: 'Enable or disable localhost tracking by plausible',
       format: 'boolean',
       default: false,
+    },
+  },
+  google_analytics: {
+    isTrackerEnabled: {
+      doc: 'Is the tracker enabled',
+      format: 'boolean',
+      default: false,
+      env: 'VITE_TRACKER_ENABLED',
+    },
+    measurement_id: {
+      doc: 'Google Analytics measurement id',
+      format: 'string',
+      default: 'G-W49XXK5S0F',
+      env: 'VITE_GA_MEASUREMENT_ID',
     },
   },
   showBanner: {
