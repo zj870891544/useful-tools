@@ -57,7 +57,7 @@ export const config = figue({
     isTrackerEnabled: {
       doc: 'Is the tracker enabled',
       format: 'boolean',
-      default: false,
+      default: true,
       env: 'VITE_TRACKER_ENABLED',
     },
     measurement_id: {
