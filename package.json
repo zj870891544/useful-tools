@@ -1,7 +1,7 @@
 {
   "name": "userful-dev-tools",
   "type": "module",
-  "version": "2025.07.16-7ca5933",
+  "version": "1.0.0",
   "packageManager": "pnpm@9.11.0",
   "description": "Collection of handy online tools for developers, with great UX. ",
   "author": "samzhang(samzhangjian@gmail.com)(samzhang.blog)",

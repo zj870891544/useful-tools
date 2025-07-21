@@ -26,7 +26,7 @@ function initializeGtag() {
 export const gtag = {
   install: (app: App) => {
     if (!config.google_analytics.isTrackerEnabled) {
-      window.gtag = () => {};
+      window.gtag = () => { };
       app.provide('gtag', window.gtag);
       return;
     }
@@ -38,4 +38,4 @@ export const gtag = {
 
     app.provide('gtag', window.gtag);
   },
-}; 
+};

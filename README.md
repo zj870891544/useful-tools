@@ -4,35 +4,13 @@
     <img src="./.github/logo-dark.png" alt="logo">
 </picture>
 
-Useful tools for developer and people working in IT. [Have a look !](https://it-tools.tech).
+Useful tools for developer and people working in IT. [Have a look !](https://samzhang.blog).
 
 ## Functionalities and roadmap
 
-Please check the [issues](https://github.com/CorentinTh/it-tools/issues) to see if some feature listed to be implemented.
+Please check the [issues](https://github.com/zj870891544/userful-tools/issues) to see if some feature listed to be implemented.
 
-You have an idea of a tool? Submit a [feature request](https://github.com/CorentinTh/it-tools/issues/new/choose)!
-
-## Self host
-
-Self host solutions for your homelab
-
-**From docker hub:**
-
-```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 corentinth/it-tools:latest
-```
-
-**From github packages:**
-
-```sh
-docker run -d --name it-tools --restart unless-stopped -p 8080:80 ghcr.io/corentinth/it-tools:latest
-```
-
-**Other solutions:**
-
-- [Cloudron](https://www.cloudron.io/store/tech.ittools.cloudron.html)
-- [Tipi](https://www.runtipi.io/docs/apps-available)
-- [Unraid](https://unraid.net/community/apps?q=it-tools)
+You have an idea of a tool? Submit a [feature request](https://github.com/zj870891544/userful-tools/issues/new/choose)!
 
 ## Contribute
 
